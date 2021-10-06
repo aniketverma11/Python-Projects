@@ -1,9 +1,31 @@
+#!/usr/bin/env python3
+
+
+#In Bagels, a deductive logic game, you
+#must guess a secret three-digit number
+#based on clues. The game offers one of
+#the following hints in response to your guess:
+#“Pico” when your guess has a correct digit in the
+#wrong place, “Fermi” when your guess has a correct
+#digit in the correct place, and “Bagels” if your guess
+#has no correct digits. You have 10 tries to guess the
+#secret number.
+
+
+
+
 import random
+#we are going to import random to find the random number
 
 max_num = 4
+#this variable value define what thge length of your number 
+
+
 max_try = 5
+#this is maximum try which is deault value
 
 def main():
+#main game loop function that perform the main game procedure
     while True:
         secretN = secretnum()
         print('I have Thought up a number')
